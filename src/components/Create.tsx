@@ -12,7 +12,7 @@ const Create: React.FC<props> = ({ note, setNote, addNotes }) => {
 
   return (
     <div className="form-div">
-      Type Your Notes here{" "}
+      Write Your Notes here{" "}
       <form
         className="input"
         onSubmit={(e) => {
